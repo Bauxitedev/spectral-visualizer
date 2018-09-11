@@ -1,0 +1,51 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Spectral Visualizer"
+run/main_scene="res://Player.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/size/fullscreen=true
+
+[importer_defaults]
+
+wav={
+"compress/mode": 0,
+"edit/loop": true,
+"edit/normalize": true,
+"edit/trim": true,
+"force/8_bit": false,
+"force/max_rate": false,
+"force/max_rate_hz": 44100,
+"force/mono": false
+}
+
+[mono]
+
+debugger_agent/port=50000
+
+[rendering]
+
+limits/buffers/canvas_polygon_buffer_size_kb=4096
+limits/buffers/canvas_polygon_index_buffer_size_kb=4096
+environment/default_clear_color=Color( 0, 0, 0, 1 )
+quality/filters/msaa=2
+environment/default_environment="res://default_env.tres"
