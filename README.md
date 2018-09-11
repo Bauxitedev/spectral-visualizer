@@ -4,6 +4,8 @@ This is a spectral visualizer that analyzes the frequencies of music and sound, 
 
 ![demo](demo/demo.gif)
 
+[Here's a video of it in action.](https://www.youtube.com/watch?v=7Ksw95gDI1c)
+
 ## Running
 
 **Important: this requires [Godot 3.1 Alpha Mono edition](https://godotengine.org/article/dev-snapshot-godot-3-1-alpha-1). Older versions, such as Godot 3.0.x, will not work.**
